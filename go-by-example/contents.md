@@ -1,13 +1,4 @@
-01. Basic Concepts: 
-   - [ ] Hello World
-   - [ ] Values
-   - [ ] Variables
-   - [ ] Constants
-   - [ ] Strings and Runes
-
 02. Control Structures: 
-   - [ ] For
-   - [ ] If/Else
    - [ ] Switch
    - [ ] Range
 
@@ -19,8 +10,6 @@
    - [ ] Struct Embedding
 
 04. Functions and Methods: 
-   - [ ] Functions
-   - [ ] Multiple Return Values
    - [ ] Variadic Functions
    - [ ] Closures
    - [ ] Recursion
@@ -45,9 +34,9 @@
    - [x] Channel Directions
    - [x] Select
    - [x] Timeouts
-   - [ ] Non-Blocking Channel Operations
-   - [ ] Closing Channels
-   - [ ] Range over Channels
+   - [x] Non-Blocking Channel Operations
+   - [x] Closing Channels
+   - [x] Range over Channels
    - [ ] Timers
    - [ ] Tickers
    - [ ] Worker Pools

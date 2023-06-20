@@ -6,19 +6,23 @@ func main() {
 	messages := make(chan string)
 	signals := make(chan bool)
 
+	// non-blocking
 	select {
+	// messages is empty, msg is waiting -- blocking
 	case msg := <-messages:
 		fmt.Println("received message", msg)
-	default:
+	default: // saves the day
 		fmt.Println("no message received")
 	}
 
 	msg := "hi"
 
+	// non-blocking
 	select {
+	// no receiver for this channel -- blocking
 	case messages <- msg:
 		fmt.Println("received message", msg)
-	default:
+	default: // saves the day
 		fmt.Println("no message received")
 	}
 
