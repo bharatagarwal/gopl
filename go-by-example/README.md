@@ -37,14 +37,14 @@
    - [x] Non-Blocking Channel Operations
    - [x] Closing Channels
    - [x] Range over Channels
-   - [ ] Timers
-   - [ ] Tickers
-   - [ ] Worker Pools
-   - [ ] WaitGroups
-   - [ ] Rate Limiting
-   - [ ] Atomic Counters
-   - [ ] Mutexes
-   - [ ] Stateful Goroutines
+   - [x] Timers
+   - [x] Tickers
+   - [x] Worker Pools
+   - [x] WaitGroups
+   - [x] Rate Limiting
+   - [x] Atomic Counters
+   - [x] Mutexes
+   - [x] Stateful Goroutines
 
 08. String and Text Manipulation: 
    - [ ] String Functions

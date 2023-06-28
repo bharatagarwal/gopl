@@ -16,14 +16,14 @@ func main() {
 
 	go func() {
 		time.Sleep(2 * time.Second)
-		c1 <- "two"
+		c2 <- "two"
 	}()
 
 	for i := 0; i < 2; i += 1 {
 		select {
-		case msg1 := <-c1: // this is blocking initially
+		case msg1 := <-c1:
 			fmt.Println("received", msg1)
-		case msg2 := <-c2: // then this becomes blocking
+		case msg2 := <-c2:
 			fmt.Println("received", msg2)
 		}
 	}
